@@ -8,6 +8,7 @@ import apps
 import parseCommand
 import webbrowser
 import datetime
+from getPath import getPath
 
 listening = False  # Global flag for the listening state
 
@@ -141,7 +142,8 @@ def quitApp():
 
 def previousChats():
     try:
-        with open('client/history.txt') as file:
+        
+        with open(getPath('history.txt')) as file:
             while chats:=file.readline():
                 if chats:
                     displayLog(chats.strip())
@@ -152,7 +154,8 @@ def getTime():
     return datetime.datetime.now()
 
 def saveChats(data):
-    with open('client/history.txt', 'a') as file:
+    
+    with open(getPath('history.txt'), 'a') as file:
         file.write(f"{getTime()}\nUser: {data['User']}\nAssitant: {data['Model']}\n")
 
 

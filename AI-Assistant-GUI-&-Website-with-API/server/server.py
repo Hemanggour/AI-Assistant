@@ -17,18 +17,18 @@ modelChats = []
 
 def callAI(message):
         if message:
-            content = {
-                'parts': [
-                    {'text': 'Previous chats:\n' + '\n'.join(userChats)},
-                    {'text': 'Current message: ' + message}
-                ]
-            }
-            model = AI.GenerateContent(content)
-            if len(userChats) >= CHAT_SIZE:
-                userChats.pop(0)
-                modelChats.pop(0)
-            userChats.append(message)
-            modelChats.append(model)
+            # content = {
+            #     'parts': [
+            #         {'text': 'Previous chats:\n' + '\n'.join(userChats)},
+            #         {'text': 'Current message: ' + message}
+            #     ]
+            # }
+            model = AI.GenerateContent(message)
+            # if len(userChats) >= CHAT_SIZE:
+            #     userChats.pop(0)
+            #     modelChats.pop(0)
+            # userChats.append(message)
+            # modelChats.append(model)
             return (message, model)
 
 class HandleUser(Resource):

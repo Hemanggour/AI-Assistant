@@ -1,0 +1,20 @@
+2024-11-30 19:14:54.116855
+User: what's my name
+Assitant: Your name is Hemang.
+
+2024-11-30 19:21:16.324479
+User: what's my name
+Assitant: I don't have access to your previous chats or personal information, including your name.  To tell me your name, you'll have to tell me!
+
+2024-11-30 19:21:26.224447
+User: my name is himank
+Assitant: Okay, Himank.  I'll remember that.
+
+2024-11-30 19:21:46.446317
+User: what's my name
+Assitant: Your name is Himank.
+
+2024-11-30 19:24:19.103336
+User: what's my name
+Assitant: I do not know your name.  I have no access to personal information about you unless you explicitly provide it to me.
+
