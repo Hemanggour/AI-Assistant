@@ -1,1 +1,7 @@
-API.log
+.venv
+__pycache__
+.vscode
+API*
+log*
+ChatAI*
+ChatHistory*

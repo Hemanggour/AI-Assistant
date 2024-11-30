@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Chat{% endblock title %}
+{% block content %}
+    <ul class"center" id="messageArea">
+        {% if userChats and modelChats %}
+            {% for chat in range %}
+                <li>
+                    <pre>User: {{userChats[chat]}}</pre>
+                    <pre>model: {{modelChats[chat]}}</pre>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+    <form action="/chat" method="POST">
+        <div class="center">
+            <div id="messageBox" class="center">
+                <input name="message" placeholder="Start Chat..." autofocus required></input>
+                <button>Send</button>
+            </div>
+        </div>
+    </form>
+{% endblock content %}
