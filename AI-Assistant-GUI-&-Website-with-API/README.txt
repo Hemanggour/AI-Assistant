@@ -1,3 +1,3 @@
 - To Start Server Run the "server.py" from server folder.
 - To Start GUI Client of AI-Assistant Run the "main.py" from client folder.
-- To Get A website View got to "localhost:5000" in your Browser after starting the server
+- To Get A website. Goto "localhost:5000" in your Browser after starting the server
