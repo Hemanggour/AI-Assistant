@@ -3,9 +3,6 @@ import AI
 from flask_restful import Api, Resource, reqparse
 from youtube import youtube_search
 from news import getNews
-# from authentication import Authentication as auth
-# from database import Database as db
-# from registration import Register as res
 
 app = Flask(__name__)
 api = Api(app)
