@@ -66,13 +66,13 @@ This project is an AI Assistant that can perform various tasks such as opening a
     pip install -r requirements.txt
     ```
 
-3. Set up the MySQL database and update the connection details in [database.py](AI-Assistant-GUI-%26-Website-with-API/server/database.py).
+3. Set up the MySQL database and update the connection details in [database.py](/AI-Assistant-GUI-&-Website-with-API/server/database.py).
 
 4. Add your API keys in APIs.json [Get API Key](https://ai.google.dev/gemini-api/docs/api-key).
 
 ### Running the Server
 
-To start the server, run the following command from the [server](AI-Assistant-GUI-%26-Website-with-API/server/server.py) directory:
+To start the server, run the following command from the [server](/AI-Assistant-GUI-&-Website-with-API/server/server.py) directory:
 ```sh
 python server/server.py
 
