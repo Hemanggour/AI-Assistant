@@ -4,43 +4,43 @@ This project is an AI Assistant that can perform various tasks such as opening a
 
 ## Project Structure
 
-AI-Assistant-GUI-&-Website-With-API
-    - requirements.txt
-    - README.txt
+    -AI-Assistant-GUI-&-Website-With-API
+        - requirements.txt
+        - README.txt
 
-    - client/
-        - apps.py
-        - client.py
-        - getPath.py
-        - history.txt
-        - log.json
-        - main.py
-        - MusicLib.py
-        - parseCommand.py
+        - client/
+            - apps.py
+            - client.py
+            - getPath.py
+            - history.txt
+            - log.json
+            - main.py
+            - MusicLib.py
+            - parseCommand.py
 
-    - server/
-        - APIs.json
-        - APIs.py
-        - authentication.py
-        - ChatAI.py
-        - ChatHistory.txt
-        - database.py
-        - getPath.py
-        - news.py
-        - newsTopic.py
-        - registration.py
-        - wiki.py
-        - youtube.py
-        - search.py
-        - server.py
-        - static/
-            - css/
-                - styles.css
-            - js/
-            - media/
-        - templates/
-            - base.html
-            - chat.html
+        - server/
+            - APIs.json
+            - APIs.py
+            - authentication.py
+            - ChatAI.py
+            - ChatHistory.txt
+            - database.py
+            - getPath.py
+            - news.py
+            - newsTopic.py
+            - registration.py
+            - wiki.py
+            - youtube.py
+            - search.py
+            - server.py
+            - static/
+                - css/
+                    - styles.css
+                - js/
+                - media/
+            - templates/
+                - base.html
+                - chat.html
 
 ## Getting Started
 
