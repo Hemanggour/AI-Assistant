@@ -68,7 +68,7 @@ This project is an AI Assistant that can perform various tasks such as opening a
 
 3. Set up the MySQL database and update the connection details in [database.py](/AI-Assistant-GUI-&-Website-with-API/server/database.py).
 
-4. Create Add your API keys in **APIs.json** in server directory [Get API Key](https://ai.google.dev/gemini-api/docs/api-key).
+4. Add your API keys in **APIs.json** in server directory [Get API Key](https://ai.google.dev/gemini-api/docs/api-key).
 ```json
 {
     "gemini": "YOUR-API-KEY"
