@@ -83,7 +83,6 @@ News: [News](https://newsapi.org)
 
 Youtube: [Youtube](https://console.cloud.google.com/apis/library/youtube.googleapis.com)
 
-
 ### Running the Server
 
 To start the server, run the following command from the **server** directory:
