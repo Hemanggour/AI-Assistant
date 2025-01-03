@@ -77,11 +77,11 @@ This project is an AI Assistant that can perform various tasks such as opening a
 }
 ```
 ### Required API Keys
-[Gemini](https://ai.google.dev/gemini-api/docs/api-key)
+Gemini: [Gemini](https://ai.google.dev/gemini-api/docs/api-key)
 
-[News](https://newsapi.org)
+News: [News](https://newsapi.org)
 
-[youtube](https://console.cloud.google.com/apis/library/youtube.googleapis.com)
+Youtube: [Youtube](https://console.cloud.google.com/apis/library/youtube.googleapis.com)
 
 
 ### Running the Server
