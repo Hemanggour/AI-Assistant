@@ -86,6 +86,7 @@ Accessing the Web Interface
 After starting the server, open your web browser and go to http://localhost:5000 to access the web interface.
 
 **_Features_**
+
 _Open Applications: Open various applications like Notepad, Calculator, Paint, etc._
 
 _Play Music: Play songs from a predefined music library._
