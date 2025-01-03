@@ -6,6 +6,7 @@ This project is an AI Assistant that can perform various tasks such as opening a
 
 AI-Assistant-GUI-&-Website-With-API
     - requirements.txt
+    - README.txt
 
     - client/
         - apps.py
@@ -15,10 +16,9 @@ AI-Assistant-GUI-&-Website-With-API
         - log.json
         - main.py
         - MusicLib.py
-        ### - parseCommand.py
-        - README.### txt
+        - parseCommand.py
 
-
+    - server/
         - APIs.json
         - APIs.py
         - authentication.py
@@ -37,7 +37,7 @@ AI-Assistant-GUI-&-Website-With-API
             - css/
                 - styles.css
             - js/
-                - media/
+            - media/
         - templates/
             - base.html
             - chat.html
