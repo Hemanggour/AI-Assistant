@@ -71,19 +71,26 @@ This project is an AI Assistant that can perform various tasks such as opening a
 4. Add your API keys in **APIs.json** in server directory [Get API Key](https://ai.google.dev/gemini-api/docs/api-key).
 ```json
 {
-    "gemini": "YOUR-API-KEY"
+    "gemini": "YOUR-GEMINI-API-KEY",
+    "news": "YOUR-NEWS-API-KEY",
+    "youtube": "YOUR-YOUTUBE-API-KEY"
 }
 ```
+### Required API Keys
+[Gemini](https://ai.google.dev/gemini-api/docs/api-key)
+[News](https://newsapi.org)
+[youtube](https://console.cloud.google.com/apis/library/youtube.googleapis.com)
+
 
 ### Running the Server
 
-To start the server, run the following command from the [server](/AI-Assistant-GUI-&-Website-with-API/server/server.py) directory:
+To start the server, run the following command from the **server** directory:
 ```sh
 python server/server.py
 ```
 
 Running the Client
-To start the GUI client, run the following command from the client directory:
+To start the GUI client, run the following command from the **client** directory:
 ```sh
 python client/main.py
 ```
@@ -144,5 +151,3 @@ For any issues or contributions, please create a pull request or open an issue o
 
 ## License
 ### This project is licensed under the MIT License.
-
-### Feel free to customize this README file as per your project's specific details and requirements.
