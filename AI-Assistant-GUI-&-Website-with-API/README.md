@@ -75,16 +75,18 @@ This project is an AI Assistant that can perform various tasks such as opening a
 To start the server, run the following command from the [server](/AI-Assistant-GUI-&-Website-with-API/server/server.py) directory:
 ```sh
 python server/server.py
-
+```
 
 Running the Client
 To start the GUI client, run the following command from the client directory:
+```sh
 python client/main.py
+```
 Accessing the Web Interface
 After starting the server, open your web browser and go to http://localhost:5000 to access the web interface.
 
-Features
-Open Applications: Open various applications like Notepad, Calculator, Paint, etc.
+**__Features__**
+__Open Applications: Open various applications like Notepad, Calculator, Paint, etc.
 Play Music: Play songs from a predefined music library.
 Fetch News: Get the latest news on various topics.
 Chat with AI: Interact with the AI assistant through a web interface or GUI client.
@@ -106,7 +108,7 @@ server/registration.py: Functions for user registration and password management.
 server/search.py: Functions to perform Google searches.
 server/server.py: Flask server to handle API requests and render web pages.
 server/wiki.py: Functions to search Wikipedia.
-server/youtube.py: Functions to search YouTube videos.
+server/youtube.py: Functions to search YouTube videos.__
 ```
 ## Notes
 ### This project is currently under development, so some functions might not work or have bugs.
