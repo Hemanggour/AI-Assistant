@@ -57,22 +57,22 @@ This project is an AI Assistant that can perform various tasks such as opening a
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Hemanggour/AI-Assistant/tree/main/AI-Assistant-GUI-%26-Website-with-API
+    cd AI-Assistant-GUI-&-Website-with-API
     ```
 
 2. Install the required Python packages:
     ```sh
-    pip install -r client/requirements.txt
+    pip install -r requirements.txt
     ```
 
-3. Set up the MySQL database and update the connection details in [database.py](http://_vscodecontentref_/29).
+3. Set up the MySQL database and update the connection details in [database.py](AI-Assistant-GUI-&-Website-with-API/server/database.py).
 
-4. Add your API keys in [APIs.json](http://_vscodecontentref_/30).
+4. Add your API keys in APIs.json [Get API Key](https://ai.google.dev/gemini-api/docs/api-key).
 
 ### Running the Server
 
-To start the server, run the following command from the [server](http://_vscodecontentref_/31) directory:
+To start the server, run the following command from the [server](AI-Assistant-GUI-&-Website-with-API/server/server.py) directory:
 ```sh
 python server/server.py
 
