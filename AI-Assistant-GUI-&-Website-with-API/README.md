@@ -132,7 +132,7 @@ _server/server.py: Flask server to handle API requests and render web pages._
 _server/wiki.py: Functions to search Wikipedia._
 
 _server/youtube.py: Functions to search YouTube videos._
-```
+
 ## Notes
 ### This project is currently under development, so some functions might not work or have bugs.
 For any issues or contributions, please create a pull request or open an issue on the repository.
